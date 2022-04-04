@@ -1,7 +1,6 @@
 import './App.css';
 import { Route, Routes } from 'react-router-dom';
 import Home from './componants/Home/Home';
-import Review from './componants/Review/Review';
 import Dashboard from './componants/Dashboard/Dashboard';
 import Blog from './componants/Blog/Blog';
 import About from './componants/About/About';

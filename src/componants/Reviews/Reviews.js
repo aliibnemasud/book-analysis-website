@@ -19,7 +19,7 @@ const Reviews = () => {
                     reviews.map(review => <Review
                     key={review.id}
                     review={review}
-                    ></Review>)
+                    ></Review>)                    
                 }                
             </div>
             <div className='text-center'>

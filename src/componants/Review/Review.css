@@ -5,14 +5,10 @@
     margin-right: 10px;
     
 }
-
 .review-container {
-    display: flex;
-    border: 1px solid saddlebrown;
+    display: flex;    
     margin: 5px;
     padding: 20px;
     border-radius: 20px;
-    background-color: aliceblue;
-    
-        
+    background-color: aliceblue;       
 }
