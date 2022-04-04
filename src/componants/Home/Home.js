@@ -3,6 +3,7 @@ import './Home.css';
 import book from '../img/bookk.png';
 import { Button } from 'react-bootstrap';
 import Reviews from '../Reviews/Reviews';
+import CustomLink from '../CustomeLink/CustomLink';
 
 const Home = () => {
     return (
@@ -16,6 +17,9 @@ const Home = () => {
                 <img src={book} alt="" />
             </section>
             <Reviews></Reviews>
+            <div className='text-center'>
+            <CustomLink to="/review"><Button variant="primary" className='my-5 ml-0'>All Reviews</Button></CustomLink>  
+            </div>
         </div>
     );
 };

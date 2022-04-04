@@ -11,6 +11,7 @@ const Dashboard = () => {
 
     return (
         <section>
+            <h1 className='text-center my-5'>Dashboard</h1>
             <div className='container my-5 d-flex justify-content-between'>
                 <LineChart className='mr-5' width={600} height={400} data={chartdata}>
                     <Line type="monotone" dataKey={"investment"} stroke="#8884d8"></Line>
