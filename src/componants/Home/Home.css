@@ -7,8 +7,9 @@
     width: 40%;    
 }
 .text-conatainer h1{
-    font-size: 3.5em;
-    font-family: ui-monospace;
+    font-size: 4em;
+    text-transform: uppercase;
+    font-weight: 800;   
     
   }
 
@@ -29,8 +30,8 @@
         color: white;        
 }
 
-.reviews-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 20px;
+
+.btn-cta {
+    padding: 15px 20px !important;
+    margin-top: 40px;
 }

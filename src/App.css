@@ -1,4 +1,6 @@
-
+.App {
+  font-family: 'Poppins', sans-serif;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -33,3 +35,5 @@
     transform: rotate(360deg);
   }
 }
+
+

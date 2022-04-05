@@ -7,6 +7,7 @@ import About from './componants/About/About';
 import Header from './componants/Header/Header';
 import ErrorPage from './componants/ErrorPage/ErrorPage';
 import Reviews from './componants/Reviews/Reviews';
+import Footer from './componants/Footer/Footer';
 
 function App() {
   return (
@@ -19,7 +20,8 @@ function App() {
         <Route path='/blogs' element={<Blog></Blog>}></Route>
         <Route path='/about' element={<About></About>}></Route>        
         <Route path='*' element={<ErrorPage></ErrorPage>}></Route>        
-      </Routes>      
+      </Routes>
+      <Footer></Footer>      
     </div>
   );
 }
